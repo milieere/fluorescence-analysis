@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1606127384240.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "312B3C87",
+    "lastKnownWriteTime" : 7143307332890734690,
+    "last_content_update" : 1606127384240,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "E94B53DB",
+        "caption" : "summary_gfp_ng_e100",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=summary_gfp_ng_e100&cache_key=E94B53DB",
+        "displayedObservations" : 2,
+        "environment" : "",
+        "expression" : "summary_gfp_ng_e100",
+        "object" : "summary_gfp_ng_e100",
+        "preview" : 0,
+        "totalObservations" : 2,
+        "variables" : 4
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 12,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
