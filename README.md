@@ -28,3 +28,15 @@ Suitable for user-friendly high-throughput data extraction (mean intensity and a
 
 
 <h2>Dependencies</h2>
+
+**Contact me to share with you the copy of the Anaconda environment used for this complete pipeline**
+
+Dependencies from <a href='https://github.com/alexxijielu/yeast_segmentation'>YeastSpotter</a>
+skimage
+pandas
+numpy
+cv2
+glob
+matplotlib
+PIL
+seaborn
