@@ -4,14 +4,13 @@ This is a tool for processing of fluorescent microscopy images of yeast cells. T
 It enables for user-friendly high-throughput data extraction (mean intensity and area) coupled with precise yeast segmentation by YeastSpotter. It can be used to estimate differences between relative protein expression from fluorescent images.
 
 <h2>STEPS:</h2>
-1. Clone the repository https://github.com/alexxijielu/yeast_segmentation and setup its dependencies to your environment, including downloading the weights
-2. Replace the opts.py file with an opts.py file in this repository
-1. Setup a directory where will take place your analysis (i.e. '/home/analysis/').
-2. In this directory, create a directory called 'originals' with your original images('/home/analysis/originals/')
-4. In the directory with the scripts
-3. Open file opts.py and specify path to the directory with the scripts (i.e. '/home/scripts/') and path to the directory with your analysis ('/home/analysis/').
-4. in the opts.py file, specify parameters for processing and segmentation
-5. Run process.py file
+1. Clone <a href='https://github.com/alexxijielu/yeast_segmentation'>this repository</a>, and setup its dependencies to your environment, including downloading the weights<br>
+2. Replace the opts.py file from YeastSpotter with an opts.py file in this repository, and add the postprocess.py and process.py to the same directory<br>
+3. Setup a directory where will take place your analysis (i.e. '/home/analysis/').<br>
+4. In this directory, create a directory called 'originals' with your original images('/home/analysis/originals/')<br>
+5. Open file opts.py and specify path to the directory with the scripts (i.e. '/home/scripts/') and path to the directory with your analysis ('/home/analysis/').<br>
+6. in the opts.py file, specify parameters for processing and segmentation<br>
+7. Run process.py file
 
 
 <h2>This pipeline will:</h2>
