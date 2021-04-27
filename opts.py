@@ -1,10 +1,10 @@
 ##### CHANGE THE PARAMETERS HERE #####################
 
 #Path to the scripts
-path_scripts = r'C:\Users\Simona\Documents\discoscience\doctorate_upf\bioinfo\segmentation_python\scripts/'
+path_scripts = '/home/scripts/'
 
 #Path to the analysis folder
-path = r'C:\Users\Simona\Documents\discoscience\doctorate_upf\bioinfo\segmentation_python\test/'
+path = '/home/analysis/'
 
 #######################################
 
