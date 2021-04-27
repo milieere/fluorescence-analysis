@@ -24,8 +24,9 @@ Suitable for user-friendly high-throughput data extraction (mean intensity and a
 8. Convert the area of the cells to square microns, and categorize them big/small to see the growth ratio (small cells are after division) to see whether they don't have a growth deffect
 7. Save results in '/home/analysis/results/' (csv tables, png plot)
 
-<h2>Example result plot</h2>
+<h2>Example result plot + segmentation</h2>
 <img src='example_results/outline_plot.png'></img>
+Plot of mean intensities (observations = single cells of each sample).
 
 <h2>Dependencies</h2>
 
