@@ -1,7 +1,7 @@
 # Yeast fluorescent protein intensity pipeline for relative expression levels of proteins in yeast cells
 
-This is a tool for processing of fluorescent microscopy images of yeast cells. This tool is based on neural network image segmentation from Alex Xijielu - YeastSpotter (https://github.com/alexxijielu/yeast_segmentation). It extends the tool to enable extract data from single cells, such as mean pixel intensity and area.
-It enables for user-friendly high-throughput data extraction (mean intensity and area) coupled with precise yeast segmentation by YeastSpotter. It can be used to estimate differences between relative protein expression from fluorescent images.
+This is a tool for processing of fluorescent microscopy images of yeast cells. This tool is based on neural network image segmentation from Alex Xijielu - YeastSpotter (https://github.com/alexxijielu/yeast_segmentation). Set of functions from postprocess.py module extract data from single cells, such as mean pixel intensity and area.
+Suitable for user-friendly high-throughput data extraction (mean intensity and area) following precise yeast cell segmentation by YeastSpotter. It can be used to estimate differences between relative protein expression from fluorescent images.
 
 <h2>STEPS:</h2>
 1. Clone <a href='https://github.com/alexxijielu/yeast_segmentation'>this repository</a>, and setup its dependencies to your environment, including downloading the weights<br>
