@@ -25,7 +25,7 @@ Suitable for user-friendly high-throughput data extraction (mean intensity and a
 7. Save results in '/home/analysis/results/' (csv tables, png plot)
 
 <h2>Example result plot</h2>
-
+<img src='example_results/outline_plot.png'></img>
 
 <h2>Dependencies</h2>
 
