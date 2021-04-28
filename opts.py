@@ -19,8 +19,6 @@ height = 2048
 new_width = 800
 new_height = 500
 
-#Set scale to compute area of cells in square microns
-
 #If you want to do the growth rate of small/big cells set growthratio to True
 growthratio = True
 
