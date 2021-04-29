@@ -213,11 +213,11 @@ def growthrate(area_threshold, results):
     '''
     
     def smallCells():
-        small = results.groupby('filename')['area'].apply(lambda x: (x<area_threshold).sum()).reset_index(name='count')
+        small = results.groupby('filename')['area_sq_microns'].apply(lambda x: (x<area_threshold).sum()).reset_index(name='count')
         return small
     
     def bigCells():
-        big = results.groupby('filename')['area'].apply(lambda x: (x>area_threshold).sum()).reset_index(name='count')
+        big = results.groupby('filename')['area_sq_microns'].apply(lambda x: (x>area_threshold).sum()).reset_index(name='count')
         return big
     
     small = smallCells()
