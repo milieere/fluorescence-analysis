@@ -188,7 +188,7 @@ def measure_img(images_path, masks_edgefree_path, results_path, scale):
                 print('loading mask')
                 props = measure.regionprops_table(mask, img, properties=['label','area', 'equivalent_diameter', 'mean_intensity', 'max_intensity'])
                 props = pd.DataFrame(props)
-                props = props.assign(image.split('_')[0])
+                props = props.assign(filename=image.split('_')[0])
                 print(props)
                 results.append(props)
         
